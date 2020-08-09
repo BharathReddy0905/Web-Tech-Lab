@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Travels</h2>
+
+<button type="button" onclick="loadXMLDoc()">
+Get the Travels Info</button>
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+  var xmlFile='A://Web tech Lab//note.xml';
+
+  function loadXMLDoc() {
+    // body...
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET" , xmlFile, true);
+    xhttp.send();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState === 4 && this.status ===200) {
+        xmlFunction(this.response);
+      }
+
+    }
+  }
+
+</script>
+
+</body>
+</html>
+

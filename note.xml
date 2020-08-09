@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="table.xsl"?> -->
+<Travels>
+  <Address>
+    <TravelsName>Empire Burlesque</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>10.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Hide your heart</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Greatest Hits</TravelsName>
+    <TripsAvailable>3</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Still got the blues</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>10.20</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Eros</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>One night only</TravelsName>
+    <TripsAvailable>3</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>10.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Sylvias Mother</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.10</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Maggie May</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.50</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Romanza</TravelsName>
+    <TripsAvailable>Andrea Bocelli</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>10.80</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>When a man loves a woman</TravelsName>
+    <TripsAvailable>Percy Sledge</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>8.70</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Black angel</TravelsName>
+    <TripsAvailable>Savage Rose</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>10.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>1999 Grammy Nominees</TravelsName>
+    <TripsAvailable>Many</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>10.20</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>For the good times</TravelsName>
+    <TripsAvailable>Kenny Rogers</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.70</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Big Willie style</TravelsName>
+    <TripsAvailable>Will Smith</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Tupelo Honey</TravelsName>
+    <TripsAvailable>Van Morrison</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.20</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Soulsville</TravelsName>
+    <TripsAvailable>Jorn Hoel</TripsAvailable>
+    <Destination>Norway</Destination>
+    <PRICE>7.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>The very best of</TravelsName>
+    <TripsAvailable>Cat Stevens</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Stop</TravelsName>
+    <TripsAvailable>Sam Brown</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Bridge of Spies</TravelsName>
+    <TripsAvailable>T'Pau</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>7.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Private Dancer</TravelsName>
+    <TripsAvailable>Tina Turner</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Midt om natten</TravelsName>
+    <TripsAvailable>Kim Larsen</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>7.80</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Pavarotti Gala Concert</TravelsName>
+    <TripsAvailable>Luciano Pavarotti</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>The dock of the bay</TravelsName>
+    <TripsAvailable>Otis Redding</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>7.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Picture book</TravelsName>
+    <TripsAvailable>Simply Red</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>7.20</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Red</TravelsName>
+    <TripsAvailable>The Communards</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>7.80</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Unchain my heart</TravelsName>
+    <TripsAvailable>Joe Cocker</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>8.20</PRICE>
+  </Address>
+</Travels>

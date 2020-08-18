@@ -18,6 +18,8 @@
       </tr>
     </xsl:for-each>
   </table>
+    <xsl:text> </xsl:text>
+<xsl:value-of select="TravelsName"/>
   </body>
   </html>
 </xsl:template>

@@ -18,8 +18,7 @@
       </tr>
     </xsl:for-each>
   </table>
-    <xsl:text> </xsl:text>
-<xsl:value-of select="TravelsName"/>
+<xsl:value-of select="/Travels/Address/TravelsName/price[text()]"/>
   </body>
   </html>
 </xsl:template>

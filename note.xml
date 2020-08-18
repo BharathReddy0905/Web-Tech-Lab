@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="https://bharathreddy0905.github.io/Web-Tech-Lab/travels.xsl" type="text/xsl"?>
+<?xml-stylesheet href="A:\Web tech Lab\travels.xsl" type="text/xsl"?>
 <Travels>
   <Address>
+    <description
+  xlink:type="simple"
+  xlink:href="https://www.justdial.com/Hyderabad/Travel-Agents/nct-10496380"
+  xlink:show="new">
+  to get the details of the travels
+  </description>
     <TravelsName>Bharath Travels</TravelsName>
     <TripsAvailable>1</TripsAvailable>
     <Destination>USA</Destination>
     <PRICE>10.90</PRICE>
   </Address>
   <Address>
+    <description
+  xlink:type="simple"
+  xlink:href="https://www.justdial.com/Hyderabad/Travel-Agents/nct-10496380"
+  xlink:show="new">
+  to get the details of the travels
+  </description>
     <TravelsName>Balaji Travels</TravelsName>
     <TripsAvailable>2</TripsAvailable>
     <Destination>UK</Destination>
     <PRICE>9.90</PRICE>
   </Address>
   <Address>
+    <description
+  xlink:type="simple"
+  xlink:href="https://www.justdial.com/Hyderabad/Travel-Agents/nct-10496380"
+  xlink:show="new">
+  to get the details of the travels
+  </description>
     <TravelsName>Yatra genie</TravelsName>
     <TripsAvailable>3</TripsAvailable>
     <Destination>USA</Destination>

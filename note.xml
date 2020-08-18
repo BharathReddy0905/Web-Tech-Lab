@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="travels.xsl" type="text/xsl"?>
+<Travels>
+  <Address>
+    <TravelsName>Bharath Travels</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>10.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Balaji Travels</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Yatra genie</TravelsName>
+    <TripsAvailable>3</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Thomas Cook</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>10.20</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Safe Travels Vacations.</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>First Class Corporate Travel.</TravelsName>
+    <TripsAvailable>3</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>10.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Travel Right.</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.10</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Royalty Travel Systems.</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.50</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Royalty Travel Systems.</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>10.80</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Vacation As A Lifestyle</TravelsName>
+    <TripsAvailable>3</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>8.70</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Black angel</TravelsName>
+    <TripsAvailable>5</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>10.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Travel Blogger'S Paradise.</TravelsName>
+    <TripsAvailable>Many</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>10.20</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Getting Married Travel</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.70</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Air Projects Travel</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Anchor Rentals</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.20</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Arctic Waters Travel Agency</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>Norway</Destination>
+    <PRICE>7.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Big Orange Express</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Fairytale Family Travel Agent</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Bridge of Spies</TravelsName>
+    <TripsAvailable>T'Pau</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>7.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>See America RV Services</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>8.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Holiday Planners</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>7.80</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Gem Vacations</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>9.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Summer Vacations</TravelsName>
+    <TripsAvailable>2</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>7.90</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Central Travel and Tour Services</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>EU</Destination>
+    <PRICE>7.20</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Gem Vacations</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>UK</Destination>
+    <PRICE>7.80</PRICE>
+  </Address>
+  <Address>
+    <TravelsName>Flight Blitz</TravelsName>
+    <TripsAvailable>1</TripsAvailable>
+    <Destination>USA</Destination>
+    <PRICE>8.20</PRICE>
+  </Address>
+</Travels>

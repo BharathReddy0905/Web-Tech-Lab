@@ -4,7 +4,7 @@
   <html>
   <body>
   <h2>Travels Available</h2>
-<!--   <table border="1">
+  <table border="1">
     <tr>
       <th>TravelsName</th>
       <th>Destination</th>
@@ -12,12 +12,13 @@
     </tr>
     <xsl:for-each select="Address">
       <tr>
+        <td><xsl:value-of select="description"/></td>
         <td><xsl:value-of select="TravelsName"/></td>
         <td><xsl:value-of select="Destination"/></td>
         <td><xsl:value-of select="PRICE"/></td>
       </tr>
     </xsl:for-each>
-  </table> -->
+  </table>
 <xsl:value-of select="/Travels/Address/TravelsName/PRICE[text()]"/>
   </body>
   </html>

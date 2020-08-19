@@ -12,13 +12,13 @@
     </tr>
     <xsl:for-each select="Address">
       <tr>
-        <td><xsl:value-of select="description"/></td>
         <td><xsl:value-of select="TravelsName"/></td>
         <td><xsl:value-of select="Destination"/></td>
         <td><xsl:value-of select="PRICE"/></td>
       </tr>
     </xsl:for-each>
   </table>
+    <xsl:value-of select="description"/>
   </body>
   </html>
 </xsl:template>

@@ -5,7 +5,7 @@
     <TravelsName>Bharath Travels</TravelsName>
     <TripsAvailable>1</TripsAvailable>
     <Destination>USA</Destination>
-    <PRICE>10.90</PRICE>
+    <PRICE>10</PRICE>
   </Address>
   <Address id="2">
     <TravelsName>Balaji Travels</TravelsName>
@@ -23,12 +23,12 @@
     <TravelsName>Thomas Cook</TravelsName>
     <TripsAvailable>1</TripsAvailable>
     <Destination>UK</Destination>
-    <PRICE>10.20</PRICE>
+    <PRICE>2.20</PRICE>
   </Address>
   <Address id="5">
     <TravelsName>Safe Travels Vacations.</TravelsName>
     <TripsAvailable>2</TripsAvailable>
     <Destination>EU</Destination>
-    <PRICE>9.90</PRICE>
+    <PRICE>3.90</PRICE>
   </Address>
 </Travels>

@@ -18,7 +18,7 @@
       </tr>
     </xsl:for-each>
   </table>
-    <xsl:value-of select="description"/>
+    
   </body>
   </html>
 </xsl:template>

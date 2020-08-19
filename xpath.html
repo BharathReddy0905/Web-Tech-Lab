@@ -1,108 +1,88 @@
-<!DOCTYPE html>
-<html>
-<body>
-    <svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!DOCTYPE html>  
+<html>  
+<body>  
+<h1>XPATH</h1>  
+<div>  
+  <h3>Accessing Node by Node Location</h3> 
+  <p id="location"></p>
+  <h3>Accessing Node by Node Type</h3> 
+  <p id="nodetype"></p>
+  <h3>Accessing Node by Node Predicate</h3> 
+  <p id="predicate"></p>
+  <h3>Accessing Node by Node Node-Set</h3> 
+  <p id="nodeset"></p>
+
+</div>  
+<div>
+  <h2>Xlink</h2>
+  <svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
   <a xlink:href="https://www.w3schools.com/graphics/" target="_blank">
     <text x="0" y="15" fill="red">CLICK</text>
   </a>
   Sorry, your browser does not support inline SVG.
 </svg>
-Click here to get Travel Names/Destination / Price / links: <button type="button" onclick="loadXMLDoc();showResult(xml);">TravelsName</button><button type="button" onclick="loadXMLDoc2();showResult2(xml)">Destination</button>
-<button type="button" onclick="loadXMLDoc3();showResult3(xml)">Prices</button>
-<br><br>
-<p id="demo"></p>
-<script>
-    function loadXMLDoc(){
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            showResult(xhttp.responseXML);
-        }
-    };
-    xhttp.open("GET", "https://bharathreddy0905.github.io/Web-Tech-Lab/hello.xml", true);
-    xhttp.send(); 
-    }
-    function loadXMLDoc2(){
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            showResult2(xhttp.responseXML);
-        }
-    };
-    xhttp.open("GET", "https://bharathreddy0905.github.io/Web-Tech-Lab/hello.xml", true);
-    xhttp.send(); 
-    }
-    function loadXMLDoc3(){
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            showResult3(xhttp.responseXML);
-        }
-    };
-    xhttp.open("GET", "https://bharathreddy0905.github.io/Web-Tech-Lab/hello.xml", true);
-    xhttp.send(); 
-    }
-function showResult(xml) {
-    var txt = "";
-    path = "/Travels/Address/TravelsName"
-    if (xml.evaluate) {
-        var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
-        var result = nodes.iterateNext();
-        while (result) {
-            txt += result.childNodes[0].nodeValue + "<br>";
-            result = nodes.iterateNext();
-        } 
-    // Code For Internet Explorer
-    } else if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
-        xml.setProperty("SelectionLanguage", "XPath");
-        nodes = xml.selectNodes(path);
-        for (i = 0; i < nodes.length; i++) {
-            txt += nodes[i].childNodes[0].nodeValue + "<br>";
-        }
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-    function showResult2(xml) {
-    var txt = "";
-    path = "/Travels/Address/Destination"
-    if (xml.evaluate) {
-        var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
-        var result = nodes.iterateNext();
-        while (result) {
-            txt += result.childNodes[0].nodeValue + "<br>";
-            result = nodes.iterateNext();
-        } 
-    // Code For Internet Explorer
-    } else if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
-        xml.setProperty("SelectionLanguage", "XPath");
-        nodes = xml.selectNodes(path);
-        for (i = 0; i < nodes.length; i++) {
-            txt += nodes[i].childNodes[0].nodeValue + "<br>";
-        }
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-    function showResult3(xml) {
-    var txt = "";
-    path = "/Travels/Address/PRICE"
-    if (xml.evaluate) {
-        var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
-        var result = nodes.iterateNext();
-        while (result) {
-            txt += result.childNodes[0].nodeValue + "<br>";
-            result = nodes.iterateNext();
-        } 
-    // Code For Internet Explorer
-    } else if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
-        xml.setProperty("SelectionLanguage", "XPath");
-        nodes = xml.selectNodes(path);
-        for (i = 0; i < nodes.length; i++) {
-            txt += nodes[i].childNodes[0].nodeValue + "<br>";
-        }
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-</script>
+</div>
+<script>  
+var txt = "";
+if (window.XMLHttpRequest)  
+  {// code for IE7+, Firefox, Chrome, Opera, Safari  
+      xmlhttp=new XMLHttpRequest();  
+  }  
+else  
+  {// code for IE6, IE5  
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");  
+  }  
+xmlhttp.open("GET","https://bharathreddy0905.github.io/Web-Tech-Lab/note.xml",false);  
+xmlhttp.send();  
+xml = xmlhttp.responseXML;  
 
-</body>
-</html>
+//Accessing By Node Location
+var path = "/Travels/Address/*";  
+var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+var result = nodes.iterateNext();
+while (result) {
+    txt += result.childNodes[0].nodeValue + "<br>";
+    result = nodes.iterateNext();  
+}
+document.getElementById("location").innerHTML = txt;
+
+//Accessing By Node Type
+path = "//*";  
+txt = "";
+var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+var result = nodes.iterateNext();
+while (result) {
+    txt += result.childNodes[0].nodeValue + "<br>";
+    result = nodes.iterateNext();  
+}
+document.getElementById("nodetype").innerHTML = txt;
+
+//Accessing By Predicate
+path = "/Travels/Address[last()]/*";  
+txt = "";
+var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+var result = nodes.iterateNext();
+while (result) {
+    txt += result.childNodes[0].nodeValue + "<br>";
+    result = nodes.iterateNext();  
+}
+document.getElementById("predicate").innerHTML = txt;
+
+
+//Accessing By Node Set Function
+var path = "fn:ceiling(PRICE)";  
+txt = "";
+var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+var result = nodes.iterateNext();
+while (result) {
+    txt += result.childNodes[0].nodeValue + "<br>";
+    result = nodes.iterateNext();  
+}
+document.getElementById("nodeset").innerHTML = txt;
+
+
+</script>  
+</body>  
+</html>   
+
+ 

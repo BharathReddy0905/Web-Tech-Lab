@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="https://bharathreddy0905.github.io/Web-Tech-Lab/travels.xsl" type="text/xsl"?>
-<reviews  xmlns:xlink="http://www.w3.org/1999/xlink">
 <Travels>
   <Address id="1">
     <TravelsName>Bharath Travels</TravelsName>

@@ -11,7 +11,6 @@
                <tr bgcolor = "#9acd32">
                   <th>Address Id</th>
                   <th>Travels Name</th>
-                  <th>Destination</th>
                   <th>PRICE</th>    
                   <th>Category</th>              
                </tr>               
@@ -19,7 +18,6 @@
                   <tr>
                      <td><xsl:value-of select = "@id"/></td>
                      <td><xsl:value-of select = "concat(TravelsName,' ',Destination)"/></td>
-                     <td><xsl:value-of select = "not(Destination)"/></td>
                      <td><xsl:value-of select = "floor(PRICE)"/></td>                                
                      <td>
                         <xsl:choose>

@@ -8,7 +8,7 @@
             <h2 align="center">Travels Available</h2>
         
             <table align="center" border = "1">
-               <tr bgcolor = "#9acd32">
+               <tr bgcolor = "#5980eb">
                   <th>Address Id</th>
                   <th>Travels Name</th>
                   <th>PRICE</th>    

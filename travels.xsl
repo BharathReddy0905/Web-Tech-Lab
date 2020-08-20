@@ -4,7 +4,7 @@
 
    <xsl:template match = "/">
       <html>
-         <body>
+         <body style="background-color:#E3E2DF;font-family:verdana;">
             <h2 align="center">Travels Available</h2>
         
             <table align="center" border = "1">

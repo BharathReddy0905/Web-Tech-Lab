@@ -1,0 +1,7 @@
+[
+	{"Travels_id":"012","Travels_name":"abc","Package_Cost":"100$","No_of_Days":"2"},
+	{"Travels_id":"345","Travels_name":"def","Package_Cost":"200$","No_of_Days":"4"},
+	{"Travels_id":"678","Travels_name":"ghi","Package_Cost":"450$","No_of_Days":"6"},
+	{"Travels_id":"910","Travels_name":"jkl","Package_Cost":"1000$","No_of_Days":"3"},
+	{"Travels_id":"111","Travels_name":"mno","Package_Cost":"338$","No_of_Days":"3"}
+]

@@ -65,15 +65,7 @@
 					// FETCHING DATA FROM JSON FILE 
 					$.getJSON("Travelsinfo.json", 
 							function (data) { 
-						var Travels = '';
-						var urldata = [ 
-						 {"url":"https://bharathreddy0905.github.io/Web-Tech-Lab/Las.jpg"}, 
-						 ]; 
-						 $.each(urldata, function (index, value) {           
-						 $("#demo").append("<img src='"+value.url+"' />") 
-						 }); 
-
-						 }); 
+						var Travels = ''; 
 
 						// ITERATING THROUGH OBJECTS 
 						$.each(data, function (key, value) { 

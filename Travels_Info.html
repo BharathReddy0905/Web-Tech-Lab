@@ -5,8 +5,8 @@
 	<title>Travels Details</title> 
 
 	<!-- INCLUDING JQUERY-->
-	<script src= 
-"https://code.jquery.com/jquery-3.5.1.js"> 
+	<script src= "https://code.jquery.com/jquery-3.5.1.js"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
 	</script> 
 
 	<!-- CSS FOR STYLING THE PAGE -->
@@ -48,7 +48,7 @@
 <body> 
 	<section> 
 		<h1>Travels Details</h1> 
-
+<div id="demo"></div> 
 		<!-- TABLE CONSTRUCTION-->
 		<table id='table'> 
 			<!-- HEADING FORMATION -->
@@ -92,6 +92,15 @@
 						$('#table').append(Travels); 
 					}); 
 				}); 
+				 $(document).ready(function(){ 
+            var urldata = [ 
+         {"url":" https://bharathreddy0905.github.io/Web-Tech-Lab/Las.jpg" } "},
+         ]; 
+         $.each(urldata, function (index, value) {           
+         $("#demo").append("<img src='"+value.url+"' />") 
+         }); 
+          
+         }); 
 			</script> 
 	</section> 
 </body> 

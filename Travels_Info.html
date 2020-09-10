@@ -65,7 +65,13 @@
 					// FETCHING DATA FROM JSON FILE 
 					$.getJSON("Travelsinfo.json", 
 							function (data) { 
-						var Travels = ''; 
+						var Travels = '';
+						 var urldata = [ 
+								 {"url":" https://bharathreddy0905.github.io/Web-Tech-Lab/Las.jpg" } "},
+								 ]; 
+								 $.each(urldata, function (index, value) {           
+								 $("#demo").append("<img src='"+value.url+"' />") 
+								 }); 
 
 						// ITERATING THROUGH OBJECTS 
 						$.each(data, function (key, value) { 
@@ -91,16 +97,8 @@
 						//INSERTING ROWS INTO TABLE 
 						$('#table').append(Travels); 
 					}); 
-				}); 
-				 $(document).ready(function(){ 
-            var urldata = [ 
-         {"url":" https://bharathreddy0905.github.io/Web-Tech-Lab/Las.jpg" } "},
-         ]; 
-         $.each(urldata, function (index, value) {           
-         $("#demo").append("<img src='"+value.url+"' />") 
-         }); 
-          
-         }); 
+				});  
+           
 			</script> 
 	</section> 
 </body> 
